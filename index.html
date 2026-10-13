@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- SEO: troque por cliente -->
-  <title>Nome Sobrenome Advocacia | Direito de Família</title>
-  <meta name="description" content="Atendimento humanizado para divórcio, guarda, pensão e regularização familiar. Agende uma reunião.">
+  <title>Dra. Nome Sobrenome | Advocacia Previdenciária</title>
+  <meta name="description" content="Advocacia especializada com atuação estratégica. Agende seu atendimento online ou presencial.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,112 +15,151 @@
 <!-- ===== MENU ===== -->
 <header class="header" id="header">
   <div class="container nav">
-    <a href="#inicio" class="logo"><span class="logo__mark">NS</span><span>Nome Sobrenome<small>Advocacia</small></span></a>
+    <a href="#inicio" class="logo">Dra. <em>Nome</em> Sobrenome</a>
     <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span></button>
     <nav class="menu" id="menu">
-      <a href="#desafio">O desafio</a><a href="#areas">Áreas de atuação</a><a href="#sobre">Quem sou</a><a href="#depoimentos">Depoimentos</a><a href="#faq">Dúvidas</a>
-      <a href="#" data-wpp class="btn btn--white">Quero agendar uma consulta</a>
+      <a href="#areas">Áreas de atuação</a><a href="#diferencial">Diferencial</a>
+      <a href="#atendimento">Atendimento</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+      <a href="#" data-wpp class="btn btn--sm">Agendar atendimento</a>
     </nav>
   </div>
 </header>
 
 <main>
-<!-- ===== HERO (texto + retrato) ===== -->
+<!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
   <div class="container hero__grid">
     <div class="reveal">
-      <div class="brand"><b>NS</b><span>Nome Sobrenome Advocacia</span></div>
-      <h1>Resolva sua <em>situação familiar</em> com segurança e tranquilidade</h1>
-      <p>Atendimento humanizado para divórcio, guarda, pensão e regularização familiar — com clareza, respeito e orientação em cada etapa.</p>
-      <a href="#" data-wpp class="btn"><i>💬</i>Agende uma reunião agora mesmo</a>
-    </div>
-    <!-- TROCAR: retrato do(a) advogado(a) em .hero__photo -->
-    <div class="hero__photo reveal" role="img" aria-label="Retrato do(a) advogado(a)"><span class="seal">NS</span></div>
-  </div>
-</section>
-
-<!-- ===== O DESAFIO (bento) ===== -->
-<section class="section section--alt" id="desafio">
-  <div class="container">
-    <div class="title reveal"><h2>Você não precisa <br><em>enfrentar isso sozinho</em></h2></div>
-    <div class="bento">
-      <article class="card reveal"><div class="ico">⚖</div><h3>Tomar decisões envolvendo família <em>nunca é simples.</em></h3>
-        <p>O problema é que adiar ou tomar decisões sem orientação pode gerar consequências difíceis de resolver depois.</p></article>
-      <article class="card reveal"><div class="ico">💡</div><h3>Você merece <em>clareza em cada decisão</em></h3>
-        <p>Quando você entende suas opções, tudo fica mais simples de resolver.</p><span class="ghost">Clareza</span></article>
-      <article class="card wide reveal"><div class="bg"></div>
-        <div><div class="ico">🧭</div><h3>Meu papel é te ajudar a enxergar com clareza e <em>conduzir tudo com segurança e agilidade.</em></h3>
-        <p>Entre em contato hoje mesmo e veja seu processo avançar de forma transparente e estratégica.</p></div><span class="ghost">Resolução</span></article>
-    </div>
-  </div>
-</section>
-
-<!-- ===== ÁREAS (duplique um <article> para adicionar) ===== -->
-<section class="section" id="areas">
-  <div class="container">
-    <div class="title reveal"><h2>Minhas áreas <br><em>de atuação</em></h2></div>
-    <div class="grid3">
-      <article class="card reveal"><div class="ico">👪</div><h3>Divórcio</h3><p>Condução segura do divórcio consensual ou litigioso, com foco em resolver rápido.</p></article>
-      <article class="card reveal"><div class="ico">🤝</div><h3>Guarda e convivência</h3><p>Regulamentação que protege o melhor interesse da criança.</p></article>
-      <article class="card reveal"><div class="ico">$</div><h3>Pensão alimentícia</h3><p>Fixação, revisão e execução de pensão com equilíbrio.</p></article>
-      <article class="card reveal"><div class="ico">📝</div><h3>Acordos extrajudiciais</h3><p>Soluções ágeis, sem a necessidade de um longo processo.</p></article>
-      <article class="card reveal"><div class="ico">🗂</div><h3>Planejamento familiar</h3><p>Organização patrimonial e sucessória para proteger quem você ama.</p></article>
-      <article class="card reveal"><div class="ico">🕊</div><h3>Mediação e acordos</h3><p>Diálogo e negociação para resolver conflitos com respeito.</p></article>
-    </div>
-    <p class="center reveal"><a href="#" data-wpp class="btn"><i>💬</i>Agende uma reunião agora mesmo</a></p>
-  </div>
-</section>
-
-<!-- ===== QUEM SOU (painel dourado) ===== -->
-<section class="section section--alt" id="sobre">
-  <div class="container">
-    <div class="gold-panel reveal">
-      <!-- TROCAR: foto P&B do(a) advogado(a) em .photo -->
-      <div class="photo" role="img" aria-label="Foto do(a) advogado(a)"></div>
-      <div>
-        <h2>Quem sou</h2>
-        <p><span data-g="Dr.|Dra.">Dra.</span> <strong>Nome Sobrenome</strong> (OAB/UF 000.000), <span data-g="advogado|advogada">advogada</span> com mais de 12 anos de atuação em Direito de Família, une conhecimento técnico e atendimento humanizado para resolver conflitos com ética e agilidade.</p>
-        <p>Já foram mais de <strong>800 famílias atendidas</strong>, sempre com foco em soluções estratégicas e sustentáveis.</p>
-        <p class="loc">📍 <strong>Unidade:</strong> Rua Exemplo, 000 — Centro, Cidade/UF</p>
-        <a href="#" data-wpp class="btn btn--dark">Agendar atendimento</a>
+      <span class="pill">+20 anos de experiência</span>
+      <h1>Advocacia <em>Previdenciária</em> com atuação estratégica em direitos sociais</h1>
+      <p>Defesa de direitos junto ao INSS e ao Judiciário, com atuação técnica, consciente e comprometida com a justiça social.</p>
+      <div class="hero__cta">
+        <a href="#" data-wpp class="btn">Agendar atendimento</a>
+        <a href="#areas" class="btn btn--ghost">Como podemos te ajudar</a>
       </div>
     </div>
+    <!-- TROCAR: foto da advogada como background-image em .hero__photo -->
+    <div class="hero__photo reveal" role="img" aria-label="Retrato da advogada"><span class="hero__seal">OAB/UF<br>000.000</span></div>
   </div>
 </section>
 
-<!-- ===== DEPOIMENTOS ===== -->
-<section class="section" id="depoimentos">
+<!-- Faixa animada (marquee) — edite o texto em .marquee__track -->
+<div class="marquee" aria-hidden="true"><div class="marquee__track">
+  <span>Aposentadorias</span><span>Revisão de benefícios</span><span>BPC/LOAS</span><span>Pensão por morte</span><span>Planejamento previdenciário</span>
+  <span>Aposentadorias</span><span>Revisão de benefícios</span><span>BPC/LOAS</span><span>Pensão por morte</span><span>Planejamento previdenciário</span>
+</div></div>
+
+<!-- ===== ÁREAS (cards expansíveis: clique em "Ver mais") ===== -->
+<section class="section" id="areas">
   <div class="container">
-    <div class="title reveal"><h2>Quem já <em>foi atendido</em></h2></div>
-    <div class="slider reveal" id="slider">
-      <blockquote class="slide active">“Em um momento difícil, encontrei clareza e acolhimento. Meu processo foi resolvido com muito respeito.” <cite>— Cliente A.</cite></blockquote>
-      <blockquote class="slide">“Profissional atenciosa, ágil e transparente em cada etapa.” <cite>— Cliente B.</cite></blockquote>
-      <div class="dots" id="dots"></div>
+    <div class="section__head reveal"><span class="kicker">Áreas de atuação</span><h2>Cuidando do seu presente e garantindo seus direitos no futuro</h2></div>
+    <div class="areas">
+      <article class="area reveal">
+        <h3>Direito Previdenciário</h3><p>Proteção dos direitos fundamentais e acesso à seguridade social.</p>
+        <ul class="area__list"><li>Aposentadorias</li><li>Revisão de benefícios</li><li>Planejamento previdenciário</li><li>BPC/LOAS</li><li>Pensão por morte</li><li>Benefícios por incapacidade</li></ul>
+        <button class="area__btn" aria-expanded="false">Ver mais</button>
+      </article>
+      <article class="area reveal">
+        <h3>Atuação estratégica e judicial</h3><p>Estratégias eficazes para garantia de direitos.</p>
+        <ul class="area__list"><li>Mandado de segurança contra demora do INSS</li><li>Ações judiciais previdenciárias</li><li>Recursos administrativos</li><li>Regularização de contribuições</li></ul>
+        <button class="area__btn" aria-expanded="false">Ver mais</button>
+      </article>
+      <article class="area reveal">
+        <h3>Direitos sociais e constitucional</h3><p>Aplicação do direito constitucional na proteção social.</p>
+        <ul class="area__list"><li>Defesa do acesso à seguridade social</li><li>Análise de ilegalidades administrativas</li><li>Garantia de direitos fundamentais</li><li>Palestras e mentorias</li></ul>
+        <button class="area__btn" aria-expanded="false">Ver mais</button>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ===== FAQ ===== -->
-<section class="section section--alt" id="faq">
-  <div class="container" style="max-width:780px">
-    <div class="title reveal"><h2>Dúvidas <em>frequentes</em></h2></div>
-    <details class="faq reveal"><summary>Como funciona a primeira consulta?</summary><p>Edite aqui: explique como é a conversa inicial, duração e documentos úteis.</p></details>
-    <details class="faq reveal"><summary>Atendem online?</summary><p>Sim. O atendimento pode ser presencial ou por videochamada.</p></details>
-    <details class="faq reveal"><summary>Quanto tempo leva um divórcio consensual?</summary><p>Edite aqui com a realidade da região e do caso.</p></details>
+<!-- ===== DIFERENCIAL ===== -->
+<section class="section section--dark" id="diferencial">
+  <div class="container split">
+    <div class="reveal">
+      <span class="kicker">Diferencial</span>
+      <h2>Constitucional aplicado à proteção de direitos sociais</h2>
+      <p>Todo direito previdenciário é também um direito constitucional aplicado. Cada caso é analisado de forma ampliada, considerando:</p>
+      <ul class="ticks">
+        <li>A proteção dos direitos fundamentais</li><li>A legalidade dos atos administrativos</li>
+        <li>O impacto real na vida do cliente</li><li>As estratégias mais eficazes</li>
+      </ul>
+    </div>
+    <div class="cases reveal">
+      <h3>Atuação reforçada em casos de:</h3>
+      <div class="case">✕ Negativa indevida de benefícios</div>
+      <div class="case">⏳ Demora na análise pelo órgão</div>
+      <div class="case">⚠ Falhas no processo administrativo</div>
+    </div>
   </div>
 </section>
 
-<!-- ===== CTA FINAL / CONTATO ===== -->
-<section class="section cta" id="contato">
-  <div class="container reveal">
-    <h2>Dê o primeiro passo com <em>segurança</em></h2>
-    <a href="#" data-wpp class="btn"><i>💬</i>Agende uma reunião agora mesmo</a>
-    <ul class="contact__info"><li>📞 (11) 90000-0000</li><li>✉ contato@dominio.com.br</li><li><a href="https://instagram.com/" target="_blank" rel="noopener">@perfil</a></li></ul>
+<!-- ===== ATENDIMENTO (passo a passo) ===== -->
+<section class="section" id="atendimento">
+  <div class="container">
+    <div class="section__head reveal"><span class="kicker">Atendimento</span><h2>Como funciona</h2>
+      <p>Análise técnica e acompanhamento responsável em todas as etapas.</p></div>
+    <ol class="steps">
+      <li class="reveal"><b>01</b>Análise inicial do caso</li>
+      <li class="reveal"><b>02</b>Definição da estratégia jurídica</li>
+      <li class="reveal"><b>03</b>Acompanhamento contínuo</li>
+      <li class="reveal"><b>04</b>Atuação até a solução da demanda</li>
+      <li class="reveal"><b>05</b>Comunicação clara e expectativas alinhadas</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== SOBRE ===== -->
+<section class="section section--sand" id="sobre">
+  <div class="container about">
+    <div class="about__photo reveal" role="img" aria-label="Foto da advogada"></div>
+    <div class="reveal">
+      <span class="kicker">Sobre</span>
+      <h2>Quem é a Dra. Nome Sobrenome</h2>
+      <p>Advogada com mais de 20 anos de atuação, especialista em Direito Previdenciário e com MBA em Planejamento Previdenciário.</p>
+      <p>Sua trajetória é marcada pela defesa de direitos sociais, aplicando o Direito Constitucional na vida real e entendendo o Direito como instrumento de proteção da dignidade humana.</p>
+      <ul class="chips">
+        <li>Professora e mentora</li><li>Comissões da OAB/UF</li><li>MBA em Planejamento</li><li>Palestrante</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRODUTO DIGITAL / E-BOOK (opcional: remova se não usar) ===== -->
+ 
+<!-- <section class="section">
+  <div class="container ebook reveal">
+    <div class="ebook__cover" role="img" aria-label="Capa do e-book">E-BOOK</div>
+    <div>
+      <span class="kicker">E-book</span>
+      <h2>Guia Prático</h2>
+      <p>Um guia direto ao ponto para transformar indeferimentos em novas chances de aprovação, com recursos mais técnicos, claros e estratégicos.</p>
+      <a href="#" class="btn" target="_blank" rel="noopener">Ver guia prático</a> 
+    </div>
+  </div>
+</section> -->
+
+<!-- ===== CONTATO ===== -->
+<section class="section section--dark" id="contato">
+  <div class="container split">
+    <div class="reveal">
+      <span class="kicker">Contato e atendimento</span>
+      <h2>Atendimento flexível e contato facilitado</h2>
+      <p>Atendemos de forma online e presencial, com praticidade para você escolher como prefere ser atendido.</p>
+      <a href="#" data-wpp class="btn">Agendar atendimento</a>
+      <ul class="social">
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:contato@dominio.com.br">E-mail</a></li>
+      </ul>
+    </div>
+    <!-- TROCAR: no Google Maps clique em Compartilhar > Incorporar e cole o src do iframe -->
+    <div class="map reveal"><iframe title="Mapa" loading="lazy" src="https://maps.google.com/maps?q=Piracicaba%20SP&t=m&z=14&output=embed"></iframe></div>
   </div>
 </section>
 </main>
 
-<footer class="footer"><div class="container">© <span id="year"></span> Nome Sobrenome Advocacia · OAB/UF 000.000 · Site por <strong>Seu Nome</strong></div></footer>
+<footer class="footer"><div class="container">© <span id="year"></span> Dra. Nome Sobrenome · OAB/UF 000.000 · Site por <strong>Seu Nome</strong></div></footer>
 <a href="#" data-wpp class="wpp-float" aria-label="WhatsApp">💬</a>
 <script src="script.js"></script>
 </body>
